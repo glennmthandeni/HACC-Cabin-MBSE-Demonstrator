@@ -1,0 +1,95 @@
+Requirement_ID,Origin,Constraint_UUID,Architecture_Layer,Architecture_Element,Element_Type,Element_UUID,Trace_Role,Verification_Cases
+SN-01,BASE,5c07bb51-b2d6-55f5-ae27-61df65dd1732,SA,Reduce Broadband Acoustic Transmission,SystemFunction,fc13bb70-e7a8-4687-be7b-13063c95b09e,Functional responsibility,VC-12
+SN-01,BASE,5c07bb51-b2d6-55f5-ae27-61df65dd1732,SA,Damp Mass-Air-Mass Resonance,SystemFunction,7a73c1e3-8082-4d26-b060-3f8af6d15b54,Functional responsibility,VC-12
+SN-01,BASE,5c07bb51-b2d6-55f5-ae27-61df65dd1732,SA,Absorb Targeted Low-Frequency Cabin Residual,SystemFunction,88649f1a-a7bc-4691-a225-e2cf07dd7ea3,Functional responsibility,VC-12
+SN-01,BASE,5c07bb51-b2d6-55f5-ae27-61df65dd1732,SA,Calculate Active Cancellation,SystemFunction,ed56a35d-d05e-4425-8536-efc40ce5b418,Functional responsibility,VC-12
+SN-01,BASE,5c07bb51-b2d6-55f5-ae27-61df65dd1732,SA,Emit Seated Cancellation Sound,SystemFunction,1682092f-2552-50bd-826f-c3128f7c1fec,Functional responsibility,VC-12
+SN-01,BASE,5c07bb51-b2d6-55f5-ae27-61df65dd1732,SA,Emit Bed-Mode Cancellation Sound,SystemFunction,b3590c5f-3201-546e-8d29-5fbbd554f062,Functional responsibility,VC-12
+SN-01,BASE,5c07bb51-b2d6-55f5-ae27-61df65dd1732,SA,Hybrid Acoustic Comfort Cell (HACC),SystemComponent,647c7136-9474-41bc-ae53-14bf944bd905,System of interest,VC-12
+SN-01,BASE,5c07bb51-b2d6-55f5-ae27-61df65dd1732,PA,HACC Physical System,PhysicalComponent,e18850cd-7348-4116-b333-17ae8169ea64,Physical implementation,VC-12
+SN-02,BASE,7111cd2d-6845-5919-89e5-3a96152d579b,SA,Manage Seated and Bed-Mode Handover,SystemFunction,27370d90-c939-493c-96a6-6714f1def737,Functional responsibility,VC-07
+SN-02,BASE,7111cd2d-6845-5919-89e5-3a96152d579b,SA,Emit Seated Cancellation Sound,SystemFunction,1682092f-2552-50bd-826f-c3128f7c1fec,Functional responsibility,VC-07
+SN-02,BASE,7111cd2d-6845-5919-89e5-3a96152d579b,SA,Emit Bed-Mode Cancellation Sound,SystemFunction,b3590c5f-3201-546e-8d29-5fbbd554f062,Functional responsibility,VC-07
+SN-02,BASE,7111cd2d-6845-5919-89e5-3a96152d579b,SA,Acquire Seat Position,SystemFunction,69ebb290-7fe7-586c-b668-9349f176af87,Functional responsibility,VC-07
+SN-02,BASE,7111cd2d-6845-5919-89e5-3a96152d579b,LA,Seat-Mode Manager,LogicalComponent,90096710-9c24-4c77-b8c0-f3e8cbf8b2bd,Logical responsibility,VC-07
+SN-02,BASE,7111cd2d-6845-5919-89e5-3a96152d579b,PA,Seat-Position Sensor,PhysicalComponent,d05651ae-ca25-47a7-b7b9-5d63633b0091,Physical implementation,VC-07
+SN-02,BASE,7111cd2d-6845-5919-89e5-3a96152d579b,PA,Seated Headrest Loudspeaker Pair,PhysicalComponent,3245374b-507d-4f21-8475-8181600c1ec2,Physical implementation,VC-07
+SN-02,BASE,7111cd2d-6845-5919-89e5-3a96152d579b,PA,Bed-Mode Secondary Transducer Array,PhysicalComponent,a84dcf06-db26-4519-9375-95197bf381fd,Physical implementation,VC-07
+SYS-REQ-01,BASE,9efc4edc-6721-55db-9a3b-02d410fb5ba6,SA,Protect Against ANC Faults,SystemFunction,c7365b1b-516a-4545-968f-bdb48bcd8e29,Functional responsibility,VC-10
+SYS-REQ-01,BASE,9efc4edc-6721-55db-9a3b-02d410fb5ba6,PA,Passive Enclosure Assembly,PhysicalComponent,d4387b3b-b67b-51ad-886e-4339e38f6275,Physical implementation,VC-10
+SYS-REQ-01,BASE,9efc4edc-6721-55db-9a3b-02d410fb5ba6,PA,ANC Controller and Fault Manager Behaviour,PhysicalComponent,46dcfca1-75ad-5f0e-958a-7a87564f218b,Physical implementation,VC-10
+SYS-REQ-01,BASE,9efc4edc-6721-55db-9a3b-02d410fb5ba6,PA,HACC Physical System,PhysicalComponent,e18850cd-7348-4116-b333-17ae8169ea64,Physical implementation,VC-10
+SYS-REQ-02,BASE,ed5d114c-7f4f-5529-8b71-83b32467bc19,SA,Reduce Broadband Acoustic Transmission,SystemFunction,fc13bb70-e7a8-4687-be7b-13063c95b09e,Functional responsibility,VC-03
+SYS-REQ-02,BASE,ed5d114c-7f4f-5529-8b71-83b32467bc19,PA,Passive Enclosure Assembly,PhysicalComponent,d4387b3b-b67b-51ad-886e-4339e38f6275,Physical implementation,VC-03
+SYS-REQ-02,BASE,ed5d114c-7f4f-5529-8b71-83b32467bc19,PA,2.0 kg/m² Limp-Mass Barrier,PhysicalComponent,d9833754-3f40-4492-87d6-1fd57a00ccce,Physical implementation,VC-03
+SYS-REQ-02,BASE,ed5d114c-7f4f-5529-8b71-83b32467bc19,PA,100 mm Melamine Upper-Face Absorber,PhysicalComponent,1021dc72-87a3-4b07-84a5-9311a1e04cbb,Physical implementation,VC-03
+SYS-REQ-02,BASE,ed5d114c-7f4f-5529-8b71-83b32467bc19,PA,25 mm Floor Melamine Layer,PhysicalComponent,cc54a07b-6954-4113-9c78-58190df841f0,Physical implementation,VC-03
+SYS-REQ-03,BASE,a2216ee3-b974-578c-9cf3-f69489d82df1,SA,Damp Mass-Air-Mass Resonance,SystemFunction,7a73c1e3-8082-4d26-b060-3f8af6d15b54,Functional responsibility,VC-03
+SYS-REQ-03,BASE,a2216ee3-b974-578c-9cf3-f69489d82df1,PA,Dominant-Bay Treatment Assembly,PhysicalComponent,cdbcae97-0911-52b5-9d2a-2918a7babd45,Physical implementation,VC-03
+SYS-REQ-03,BASE,a2216ee3-b974-578c-9cf3-f69489d82df1,PA,125 mm Full-Fill Dominant-Bay Melamine,PhysicalComponent,a6fee6a1-b801-4b1d-af79-ff433130f763,Physical implementation,VC-03
+SYS-REQ-03,BASE,a2216ee3-b974-578c-9cf3-f69489d82df1,PA,Local CLD Layer,PhysicalComponent,dc20be03-c788-47e8-9fa8-5341472ed48b,Physical implementation,VC-03
+SYS-REQ-03,BASE,a2216ee3-b974-578c-9cf3-f69489d82df1,PA,+1.0 kg/m² Local Barrier Overlay,PhysicalComponent,a8e9fe6d-076d-4d12-bf2f-18534123d926,Physical implementation,VC-03
+SYS-REQ-04,BASE,a4a982e3-46af-515c-a938-5af63f1879f8,SA,Absorb Targeted Low-Frequency Cabin Residual,SystemFunction,88649f1a-a7bc-4691-a225-e2cf07dd7ea3,Functional responsibility,VC-04
+SYS-REQ-04,BASE,a4a982e3-46af-515c-a938-5af63f1879f8,PA,97/120/149 Hz Resonator Cassette,PhysicalComponent,5ca74c8e-373c-4381-9021-628282d67746,Physical implementation,VC-04
+SYS-REQ-04,BASE,a4a982e3-46af-515c-a938-5af63f1879f8,PA,Tuned Resonator Module Behaviour,PhysicalComponent,96edbaca-46ae-5c20-a480-3560c69a8f74,Physical implementation,VC-04
+SYS-REQ-05,BASE,a8b54139-52cc-514c-b942-f617d5fee611,SA,Acquire Structural Reference Signals,SystemFunction,213f287e-b56a-416b-a5ab-108c7dd2b1cf,Functional responsibility,VC-06
+SYS-REQ-05,BASE,a8b54139-52cc-514c-b942-f617d5fee611,SA,Estimate Passenger-Ear Residual,SystemFunction,0d9b31cf-e4fb-440c-8e4c-665184a2a265,Functional responsibility,VC-06
+SYS-REQ-05,BASE,a8b54139-52cc-514c-b942-f617d5fee611,SA,Calculate Active Cancellation,SystemFunction,ed56a35d-d05e-4425-8536-efc40ce5b418,Functional responsibility,VC-06
+SYS-REQ-05,BASE,a8b54139-52cc-514c-b942-f617d5fee611,SA,Emit Seated Cancellation Sound,SystemFunction,1682092f-2552-50bd-826f-c3128f7c1fec,Functional responsibility,VC-06
+SYS-REQ-05,BASE,a8b54139-52cc-514c-b942-f617d5fee611,PA,R1/R2 Structural Reference Sensors,PhysicalComponent,e02b303e-e71e-4135-8a1d-62ae74bb0bf8,Physical implementation,VC-06
+SYS-REQ-05,BASE,a8b54139-52cc-514c-b942-f617d5fee611,PA,Ear-Side Error Microphone Pair,PhysicalComponent,e7f593bf-675d-4cf3-8cc7-b2514753c359,Physical implementation,VC-06
+SYS-REQ-05,BASE,a8b54139-52cc-514c-b942-f617d5fee611,PA,FxLMS DSP and Amplifier,PhysicalComponent,1ee0208f-c3a8-43bb-b0c2-d4bfc38f7f2d,Physical implementation,VC-06
+SYS-REQ-05,BASE,a8b54139-52cc-514c-b942-f617d5fee611,PA,Seated Headrest Loudspeaker Pair,PhysicalComponent,3245374b-507d-4f21-8475-8181600c1ec2,Physical implementation,VC-06
+SYS-REQ-06,BASE,f8225d49-a92f-5beb-a06b-55736f33b86a,SA,Manage Seated and Bed-Mode Handover,SystemFunction,27370d90-c939-493c-96a6-6714f1def737,Functional responsibility,VC-07
+SYS-REQ-06,BASE,f8225d49-a92f-5beb-a06b-55736f33b86a,SA,Emit Bed-Mode Cancellation Sound,SystemFunction,b3590c5f-3201-546e-8d29-5fbbd554f062,Functional responsibility,VC-07
+SYS-REQ-06,BASE,f8225d49-a92f-5beb-a06b-55736f33b86a,SA,Acquire Seat Position,SystemFunction,69ebb290-7fe7-586c-b668-9349f176af87,Functional responsibility,VC-07
+SYS-REQ-06,BASE,f8225d49-a92f-5beb-a06b-55736f33b86a,LA,Seat-Mode Manager,LogicalComponent,90096710-9c24-4c77-b8c0-f3e8cbf8b2bd,Logical responsibility,VC-07
+SYS-REQ-06,BASE,f8225d49-a92f-5beb-a06b-55736f33b86a,PA,Seat-Position Sensor,PhysicalComponent,d05651ae-ca25-47a7-b7b9-5d63633b0091,Physical implementation,VC-07
+SYS-REQ-06,BASE,f8225d49-a92f-5beb-a06b-55736f33b86a,PA,Bed-Mode Secondary Transducer Array,PhysicalComponent,a84dcf06-db26-4519-9375-95197bf381fd,Physical implementation,VC-07
+SYS-REQ-06,BASE,f8225d49-a92f-5beb-a06b-55736f33b86a,PA,Seat-Mode Manager Behaviour,PhysicalComponent,6929117e-1255-5b49-ae5e-6d0882bcc5f3,Physical implementation,VC-07
+SYS-REQ-07,BASE,8afe3187-1a97-545d-8c44-b62ee1c81a33,SA,Provide Crew Active-Control Disable,SystemFunction,16c41f0f-aa28-4a78-8f12-0b1c9fd6ffac,Functional responsibility,VC-11
+SYS-REQ-07,BASE,8afe3187-1a97-545d-8c44-b62ee1c81a33,LA,Crew Control Interface,LogicalComponent,6907befd-fbad-4f97-8e86-23869abfbe23,Logical responsibility,VC-11
+SYS-REQ-07,BASE,8afe3187-1a97-545d-8c44-b62ee1c81a33,PA,Crew Disable / Mute Interface,PhysicalComponent,95ff9590-048f-4b91-9197-93cde73a1f3a,Physical implementation,VC-11
+SYS-REQ-07,BASE,8afe3187-1a97-545d-8c44-b62ee1c81a33,PA,Crew Control Interface Behaviour,PhysicalComponent,2f7990f8-c58a-5c2e-b080-952db95d9010,Physical implementation,VC-11
+SYS-REQ-08,BASE,e5b626b0-ee92-58b1-981f-7303d37a6156,SA,Protect Against ANC Faults,SystemFunction,c7365b1b-516a-4545-968f-bdb48bcd8e29,Functional responsibility,VC-08
+SYS-REQ-08,BASE,e5b626b0-ee92-58b1-981f-7303d37a6156,LA,ANC Controller and Fault Manager,LogicalComponent,b769cb7b-af04-4804-b73d-d11c28c8aeae,Logical responsibility,VC-08
+SYS-REQ-08,BASE,e5b626b0-ee92-58b1-981f-7303d37a6156,PA,FxLMS DSP and Amplifier,PhysicalComponent,1ee0208f-c3a8-43bb-b0c2-d4bfc38f7f2d,Physical implementation,VC-08
+SYS-REQ-08,BASE,e5b626b0-ee92-58b1-981f-7303d37a6156,PA,ANC Controller and Fault Manager Behaviour,PhysicalComponent,46dcfca1-75ad-5f0e-958a-7a87564f218b,Physical implementation,VC-08
+SYS-REQ-08,BASE,e5b626b0-ee92-58b1-981f-7303d37a6156,PA,Health and Diagnostics Behaviour,PhysicalComponent,2ba656a3-2f2d-5230-898b-a52271d8ce4d,Physical implementation,VC-08
+SYS-REQ-09,BASE,d6841b9a-f563-5ae1-a52e-a2e7c185e3c6,SA,Reduce Broadband Acoustic Transmission,SystemFunction,fc13bb70-e7a8-4687-be7b-13063c95b09e,Functional responsibility,VC-15
+SYS-REQ-09,BASE,d6841b9a-f563-5ae1-a52e-a2e7c185e3c6,SA,Damp Mass-Air-Mass Resonance,SystemFunction,7a73c1e3-8082-4d26-b060-3f8af6d15b54,Functional responsibility,VC-15
+SYS-REQ-09,BASE,d6841b9a-f563-5ae1-a52e-a2e7c185e3c6,SA,Absorb Targeted Low-Frequency Cabin Residual,SystemFunction,88649f1a-a7bc-4691-a225-e2cf07dd7ea3,Functional responsibility,VC-15
+SYS-REQ-09,BASE,d6841b9a-f563-5ae1-a52e-a2e7c185e3c6,SA,Provide Maintenance Diagnostics,SystemFunction,a2e9ac0c-9e39-45a2-8f96-a1d2eb004e62,Functional responsibility,VC-15
+SYS-REQ-09,BASE,d6841b9a-f563-5ae1-a52e-a2e7c185e3c6,PA,HACC Physical System,PhysicalComponent,e18850cd-7348-4116-b333-17ae8169ea64,Physical implementation,VC-15
+SYS-REQ-09,BASE,d6841b9a-f563-5ae1-a52e-a2e7c185e3c6,PA,Passive Enclosure Assembly,PhysicalComponent,d4387b3b-b67b-51ad-886e-4339e38f6275,Physical implementation,VC-15
+SYS-REQ-09,BASE,d6841b9a-f563-5ae1-a52e-a2e7c185e3c6,PA,Dominant-Bay Treatment Assembly,PhysicalComponent,cdbcae97-0911-52b5-9d2a-2918a7babd45,Physical implementation,VC-15
+SYS-REQ-09,BASE,d6841b9a-f563-5ae1-a52e-a2e7c185e3c6,PA,97/120/149 Hz Resonator Cassette,PhysicalComponent,5ca74c8e-373c-4381-9021-628282d67746,Physical implementation,VC-15
+SYS-REQ-09,BASE,d6841b9a-f563-5ae1-a52e-a2e7c185e3c6,PA,Maintenance Diagnostic Interface,PhysicalComponent,5dc0ed5c-7f10-4b05-b73f-4dd20be30684,Physical implementation,VC-15
+SYS-REQ-10,BASE,fe34aeb9-990b-54fe-8f60-47884a0eb3ff,PA,HACC Physical System,PhysicalComponent,e18850cd-7348-4116-b333-17ae8169ea64,Physical implementation,VC-15
+SYS-REQ-10,BASE,fe34aeb9-990b-54fe-8f60-47884a0eb3ff,PA,Passive Enclosure Assembly,PhysicalComponent,d4387b3b-b67b-51ad-886e-4339e38f6275,Physical implementation,VC-15
+SYS-REQ-10,BASE,fe34aeb9-990b-54fe-8f60-47884a0eb3ff,PA,"140 Elastomeric Isolators, Brackets and Bonding Straps",PhysicalComponent,331c6d02-c14f-4311-b5cd-d9701ea28e58,Physical implementation,VC-15
+CON-01,BASE,09523a50-4217-513b-8ce5-76ad615be3de,PA,HACC Physical System,PhysicalComponent,e18850cd-7348-4116-b333-17ae8169ea64,Physical implementation,VC-15
+CON-02,BASE,633e0746-6650-54a2-a850-a8e6d7caa793,SA,Monitor ANC Health,SystemFunction,886257b0-5790-430c-a94a-826c169cb1b1,Functional responsibility,VC-12
+CON-02,BASE,633e0746-6650-54a2-a850-a8e6d7caa793,PA,HACC Physical System,PhysicalComponent,e18850cd-7348-4116-b333-17ae8169ea64,Physical implementation,VC-12
+VER-REQ-01,BASE,e3c34ff6-c9bb-501d-a74d-de738839978f,SA,Reduce Broadband Acoustic Transmission,SystemFunction,fc13bb70-e7a8-4687-be7b-13063c95b09e,Functional responsibility,VC-03
+VER-REQ-01,BASE,e3c34ff6-c9bb-501d-a74d-de738839978f,PA,Passive Enclosure Assembly,PhysicalComponent,d4387b3b-b67b-51ad-886e-4339e38f6275,Physical implementation,VC-03
+VER-REQ-01,BASE,e3c34ff6-c9bb-501d-a74d-de738839978f,PA,Dominant-Bay Treatment Assembly,PhysicalComponent,cdbcae97-0911-52b5-9d2a-2918a7babd45,Physical implementation,VC-03
+VER-REQ-01,BASE,e3c34ff6-c9bb-501d-a74d-de738839978f,PA,97/120/149 Hz Resonator Cassette,PhysicalComponent,5ca74c8e-373c-4381-9021-628282d67746,Physical implementation,VC-03
+VER-REQ-02,BASE,f31632a7-6065-59e2-8868-df5d97a2ef12,SA,Calculate Active Cancellation,SystemFunction,ed56a35d-d05e-4425-8536-efc40ce5b418,Functional responsibility,VC-06
+VER-REQ-02,BASE,f31632a7-6065-59e2-8868-df5d97a2ef12,SA,Manage Seated and Bed-Mode Handover,SystemFunction,27370d90-c939-493c-96a6-6714f1def737,Functional responsibility,VC-06
+VER-REQ-02,BASE,f31632a7-6065-59e2-8868-df5d97a2ef12,SA,Emit Seated Cancellation Sound,SystemFunction,1682092f-2552-50bd-826f-c3128f7c1fec,Functional responsibility,VC-06
+VER-REQ-02,BASE,f31632a7-6065-59e2-8868-df5d97a2ef12,SA,Emit Bed-Mode Cancellation Sound,SystemFunction,b3590c5f-3201-546e-8d29-5fbbd554f062,Functional responsibility,VC-06
+VER-REQ-02,BASE,f31632a7-6065-59e2-8868-df5d97a2ef12,PA,FxLMS DSP and Amplifier,PhysicalComponent,1ee0208f-c3a8-43bb-b0c2-d4bfc38f7f2d,Physical implementation,VC-06
+VER-REQ-02,BASE,f31632a7-6065-59e2-8868-df5d97a2ef12,PA,Seated Headrest Loudspeaker Pair,PhysicalComponent,3245374b-507d-4f21-8475-8181600c1ec2,Physical implementation,VC-06
+VER-REQ-02,BASE,f31632a7-6065-59e2-8868-df5d97a2ef12,PA,Bed-Mode Secondary Transducer Array,PhysicalComponent,a84dcf06-db26-4519-9375-95197bf381fd,Physical implementation,VC-06
+EXT-REQ-01,EXT,1bcdc135-5f22-52df-8805-9dc571234e6a,SA,Report HACC Status to Cabin Management [EXT],SystemFunction,7aa9ce73-ae05-4023-9825-60b983839f26,Functional responsibility,VC-13
+EXT-REQ-01,EXT,1bcdc135-5f22-52df-8805-9dc571234e6a,LA,Cabin Management Adapter [EXT],LogicalComponent,669fed0e-3bab-4b55-a14e-105b3be98ec1,Logical responsibility,VC-13
+EXT-REQ-01,EXT,1bcdc135-5f22-52df-8805-9dc571234e6a,PA,Cabin Management Status Interface [EXT],PhysicalComponent,091a994d-a0ef-41f9-a373-1135332e004b,Physical implementation,VC-13
+EXT-REQ-01,EXT,1bcdc135-5f22-52df-8805-9dc571234e6a,PA,Cabin Management Adapter [EXT] Behaviour,PhysicalComponent,8f3bb942-c2a6-5caf-ae57-ba7fceee213d,Physical implementation,VC-13
+EXT-REQ-02,EXT,17371696-7c3c-576f-aecf-9b5d2698f2ee,SA,Provide Ground Maintenance Data [EXT],SystemFunction,89ada3a0-11a6-492b-8573-53d0f3be693a,Functional responsibility,VC-14
+EXT-REQ-02,EXT,17371696-7c3c-576f-aecf-9b5d2698f2ee,LA,Ground Maintenance Adapter [EXT],LogicalComponent,0caf2d1c-19c0-4259-8997-2f7bd210ef89,Logical responsibility,VC-14
+EXT-REQ-02,EXT,17371696-7c3c-576f-aecf-9b5d2698f2ee,PA,Ground Maintenance Data Interface [EXT],PhysicalComponent,0ecfffd4-4574-46b4-9a97-ddcf864d0f01,Physical implementation,VC-14
+EXT-REQ-02,EXT,17371696-7c3c-576f-aecf-9b5d2698f2ee,PA,Ground Maintenance Adapter [EXT] Behaviour,PhysicalComponent,920d5386-02fb-591f-b106-0b5dbb49f526,Physical implementation,VC-14
+EXT-REQ-03,EXT,6acfb39a-c39c-51be-8f0f-00659e850ce1,SA,Report HACC Status to Cabin Management [EXT],SystemFunction,7aa9ce73-ae05-4023-9825-60b983839f26,Functional responsibility,VC-13
+EXT-REQ-03,EXT,6acfb39a-c39c-51be-8f0f-00659e850ce1,PA,Cabin Management Status Interface [EXT],PhysicalComponent,091a994d-a0ef-41f9-a373-1135332e004b,Physical implementation,VC-13
+EXT-REQ-03,EXT,6acfb39a-c39c-51be-8f0f-00659e850ce1,PA,Ground Maintenance Data Interface [EXT],PhysicalComponent,0ecfffd4-4574-46b4-9a97-ddcf864d0f01,Physical implementation,VC-13

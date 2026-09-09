@@ -1,0 +1,19 @@
+{
+  "title": "HACC Cabin MBSE Demonstrator",
+  "tool": "Capella 7.1.0",
+  "method": "ARCADIA",
+  "semantic_elements_with_ids": 1870,
+  "native_representations": 18,
+  "requirements_as_capella_constraints": 19,
+  "functional_exchanges": 87,
+  "component_exchanges": 72,
+  "component_ports": 126,
+  "port_realizations": 175,
+  "functional_chains": 12,
+  "verification_cases": 16,
+  "engineering_verification_status": "Planned",
+  "base_ext_convention": {
+    "BASE": "HACC architecture derived from the Final Technical Report",
+    "EXT": "Read-only cabin-status and selected maintenance-diagnostic extension"
+  }
+}

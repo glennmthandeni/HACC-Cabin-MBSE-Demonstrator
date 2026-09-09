@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "capella_version": "7.1.0",
+  "semantic_elements_with_ids": 1870,
+  "local_semantic_references_checked": 2002,
+  "session_model_references_checked": 1627,
+  "native_representations": 18,
+  "requirement_constraints": 19,
+  "traceability_rows": 94,
+  "component_exchanges": 72,
+  "verification_cases": 16,
+  "exported_diagrams": 7,
+  "errors": [],
+  "note": "Integrity and synchronization check; engineering verification remains governed by the verification register."
+}
