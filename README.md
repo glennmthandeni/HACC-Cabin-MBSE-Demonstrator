@@ -3,7 +3,7 @@
 **Capella 7.1.0 · ARCADIA · Aircraft cabin acoustic comfort · End-to-end traceability**
 
 This portfolio project translates the Hybrid Acoustic Comfort Cell (HACC) concept
-developed by KPR LuxAero for Lufthansa Technik InnovAero 2026 into an end-to-end
+developed by KPR LuxAero for Lufthansa Technik InnovAero Competition 2026 into an end-to-end
 Capella architecture. It connects the operational need for passenger acoustic
 comfort to system functions, logical responsibilities, physical implementation,
 operating modes, requirement constraints and a verification programme.
